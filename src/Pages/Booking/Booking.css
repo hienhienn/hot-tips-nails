@@ -1,0 +1,10 @@
+.selected {
+  background: white !important;
+  box-shadow: 0.3125rem 0.3125rem #cfd5ff;
+  margin-right: 0.3125rem;
+  border: 1px solid #5e73ff;
+}
+
+.border-red-2 {
+  border: 2px solid #ef4444 !important
+}

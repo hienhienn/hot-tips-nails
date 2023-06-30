@@ -1,0 +1,52 @@
+.list-menu {
+    position: absolute;
+    top: 101px;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+
+.menu {
+    padding: 14px 5%;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #504e50;
+    font-size: 12px;
+    text-align: left;
+}
+
+.menu:hover {
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+@keyframes growUp {
+    0% {
+        transform: scaleY(1)
+    }
+    100% {
+        transform: scaleY(0)
+    }
+}
+
+.menu-open {
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.menu-close {
+    animation: growUp 300ms ease-out forwards;
+    transform-origin: top center;
+}
+

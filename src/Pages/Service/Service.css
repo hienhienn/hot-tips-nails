@@ -1,0 +1,35 @@
+.circle-service-image {
+    border-radius: 50%;
+    border: 3px solid #fec168;
+    display: inline-block;
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+}
+
+@media (min-width: 990px) {
+    .circle-service-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.img-manicure {
+    background-image: url(https://hottipsnailsandspa.ca/uploads/fnail07ri1nsb/product/dreamstime_s_169440119.jpg);
+    background-size: contain;
+}
+
+.img-pedicure {
+    background-image: url(https://hottipsnailsandspa.ca/uploads/fnail07ri1nsb/product/dreamstime_s_44756234.jpg);
+    background-size: contain;
+}
+
+.img-nails {
+    background-image: url(https://hottipsnailsandspa.ca/uploads/fnail07ri1nsb/product/dreamstime_l_91950042.jpg);
+    background-size: contain;
+}
+
+.img-waxing {
+    background-image: url(https://hottipsnailsandspa.ca/uploads/fnail07ri1nsb/product/dreamstime_xl_70500411.jpg);
+    background-size: contain;
+}

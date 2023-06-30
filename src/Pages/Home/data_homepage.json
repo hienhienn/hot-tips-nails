@@ -1,0 +1,104 @@
+{
+  "service": [
+    {
+      "ctg": "pedicure",
+      "list": [
+        {
+          "name": "Removal",
+          "time": "20 minutes",
+          "price": "$10",
+          "list_staff": [1, 3, 4]
+        },
+        {
+          "name": "Traditional Pedicure",
+          "time": "40 minutes",
+          "price": "$35",
+          "list_staff": [1, 4]
+        },
+        {
+          "name": "Herbal Spa Pedicure",
+          "time": "1 hour 10 minutes",
+          "price": "$50",
+          "list_staff": [5, 6]
+        }
+      ]
+    },
+    {
+      "ctg": "manicure",
+      "list": [
+        {
+          "name": "Refill",
+          "time": "1 hour",
+          "price": "$35",
+          "list_staff": [5]
+        },
+        {
+          "name": "Quick Nail Art & Polish",
+          "time": "20 minutes",
+          "price": "$10",
+          "list_staff": [1, 2, 3, 5]
+        },
+        {
+          "name": "Manicure with Regular Polish",
+          "time": "30 minutes",
+          "price": "$20",
+          "list_staff": [1, 2, 3]
+        }
+      ]
+    },
+    {
+      "ctg": "acrylic-gel nails",
+      "list": [
+        {
+          "name": "Full Set",
+          "time": "1 hour",
+          "price": "$45",
+          "list_staff": [1, 2, 3]
+        },
+        {
+          "name": "Nail Refills with Colour",
+          "time": "45 minutes",
+          "price": "$35",
+          "list_staff": [2, 3, 6]
+        },
+        {
+          "name": "Pink & White Full Set",
+          "time": "1 hour",
+          "price": "$55",
+          "list_staff": [6]
+        }
+      ]
+    },
+    {
+      "ctg": "waxing",
+      "list": [
+        {
+          "name": "Eyebrow & Tinting",
+          "time": "25 minutes",
+          "price": "$25",
+          "list_staff": [5, 6]
+        },
+        {
+          "name": "Lips",
+          "time": "10 minutes",
+          "price": "$8",
+          "list_staff": [4, 5, 6]
+        },
+        {
+          "name": "Chin",
+          "time": "10 minutes",
+          "price": "$10",
+          "list_staff": [1, 3, 5]
+        }
+      ]
+    }
+  ],
+  "staff": [
+    { "name": "Staff 1", "id": 1 },
+    { "name": "Staff 2", "id": 2 },
+    { "name": "Staff 3", "id": 3 },
+    { "name": "Staff 4", "id": 4 },
+    { "name": "Staff 5", "id": 5 },
+    { "name": "Staff 6", "id": 6 }
+  ]
+}

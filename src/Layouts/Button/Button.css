@@ -1,0 +1,37 @@
+.Button {
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    display: grid;
+    z-index: 100;
+}
+
+.top-to-btm {
+    position: relative;
+}
+
+.icon-position {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+}
+
+.icon-style {
+    background-color: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    opacity: 0.3;
+    transition: all 1s ease-in-out;
+}
+
+.icon-style:hover {
+    animation: none;
+    background: black;
+    opacity: 0.8;
+    /* border: 2px solid #551B54; */
+}
